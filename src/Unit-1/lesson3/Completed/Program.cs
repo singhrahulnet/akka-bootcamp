@@ -33,6 +33,7 @@ namespace WinTail
 
             // blocks the main thread from exiting until the actor system is shut down
             MyActorSystem.WhenTerminated.Wait();
+
         }
 
         /// <summary>
